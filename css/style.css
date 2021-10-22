@@ -1,0 +1,47 @@
+body, html {
+    font-family: arial;
+}
+
+.Title{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
+  font-size: 32px;
+  padding-top: 20px;
+}
+
+.back{
+  background-image: url(/img/background.jpg );
+}
+.map{
+    padding-bottom: 5px;
+    border: solid 1px #eee;
+    border-radius: 5px;
+    width:400px;
+    height:400px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+}
+
+.map2{
+  width:auto;
+  height:500px;
+  align-content: center;
+}
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+  pointer-events: all;
+}
+.land {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1;
+}
+
+.svg{
+}
